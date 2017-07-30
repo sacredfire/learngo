@@ -129,3 +129,5 @@ func main() {
 	}
 	fmt.Println(total / float64(len(x)))
 }
+
+// some commeny just to test commit via vsstudio
