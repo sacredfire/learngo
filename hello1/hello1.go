@@ -63,12 +63,12 @@ const fuckersName string = "Idiot Fuck"
 // 	fmt.Println(output)
 // }
 
-// func main() {
-// 	fmt.Print("Enter a temp in Fahrenheit: ")
-// 	var input float64
-// 	fmt.Scanf("%f", &input)
+func main() {
+	fmt.Print("Enter a temp in Fahrenheit: ")
+	var input float64
+	fmt.Scanf("%f", &input)
 
-// 	output := (input - 32) * 5/9
+	output := (input - 32) * 5/9
 
-// 	fmt.Println("You temp in Celcius is", output)
-// }
+	fmt.Println("You temp in Celcius is", output)
+}
